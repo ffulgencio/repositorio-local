@@ -1,0 +1,42 @@
+
+configurar
+
+git config --global user.email "sumail@dominio.com"
+git config --global user.name "Su nombre"
+
+
+iniciar el repositorio
+git init
+
+ver el estado de cambios
+git status
+
+
+agregar cambiso al stage 
+git add [nombre file]
+
+confirmar los cambios
+git commit -m ""
+
+comando vara ver el log (historico) de cambios en git
+git log
+
+listar las ramas
+git branch
+
+comando para crear branch (ramas)
+git branch [nombre rama]
+
+marcarla para trabajar (la rama)
+git checkout [nombre rama]
+
+crear una rama y seleccionarla simultaneamente
+git checkout -b [nombre rama]
+
+combinar cambios de una rama a otra
+nos movemos a la rama: git checkout [rama destino]
+hacemos un merge: git merge [rama origen]
+
+borrar una rama
+git checkout -D [nombre rama]
+
